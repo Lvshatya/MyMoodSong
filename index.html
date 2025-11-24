@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Mood Song</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎵 My Mood Song</h1>
+
+  <div class="emot-container">
+    <button class="mood" data-mood="senang">😆 Senang</button>
+    <button class="mood" data-mood="sedih">😢 Sedih</button>
+    <button class="mood" data-mood="marah">😤 Marah</button>
+    <button class="mood" data-mood="santai">😉 Santai</button>
+    <button class="mood" data-mood="galau">💔 Galau</button>
+    <button class="mood" data-mood="jatuhCinta">❤️ Jatuh Cinta</button>
+  </div>
+
+  <div id="player-container">
+    <iframe id="yt-player" width="560" height="315"
+            src=""
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
